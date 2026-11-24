@@ -1,0 +1,32 @@
+{
+  "etapa": "05b_PublicarSite",
+  "paginas": [
+    "index.html",
+    "painel.html",
+    "mapas.html"
+  ],
+  "estatisticas": {
+    "n": {
+      "Q1": 1737,
+      "Q2": 887,
+      "Q3": 887,
+      "Q4": 1737
+    },
+    "pop": {
+      "Q1": 128568154.0,
+      "Q2": 46822327.0,
+      "Q3": 7816940.0,
+      "Q4": 24117776.0
+    },
+    "total": 5248,
+    "pop_total": 207325197.0
+  },
+  "nomes": {
+    "geometrias": 5570,
+    "classificados": 5248,
+    "nao_classificados_com_nome": 322,
+    "nao_classificados_sem_nome": []
+  },
+  "avisos": [],
+  "textos_atualizados": true
+}

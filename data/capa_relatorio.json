@@ -1,0 +1,83 @@
+{
+  "etapa": "05c_GerarCapa",
+  "municipios": 5570,
+  "classificados": 5248,
+  "sem_classificacao": 322,
+  "pontos_antes": 182693,
+  "pontos_depois": 94420,
+  "tolerancia_graus": 0.03,
+  "tamanho_capa_js_kb": 914,
+  "cruz": {
+    "ice": 0.0349,
+    "ieg": 0.0553,
+    "medIce": 0.0349,
+    "medIeg": 0.0553,
+    "okIce": 1.0,
+    "okIeg": 1.0
+  },
+  "contagem_quadrantes": [
+    1737,
+    887,
+    887,
+    1737
+  ],
+  "sankey": [
+    [
+      920,
+      315,
+      339,
+      163
+    ],
+    [
+      102,
+      532,
+      10,
+      243
+    ],
+    [
+      220,
+      5,
+      572,
+      90
+    ],
+    [
+      218,
+      316,
+      247,
+      956
+    ]
+  ],
+  "mudam_de_quadrante": 2268,
+  "sem_comparacao_entre_pares": 0,
+  "percentis_no_grupo": {
+    "usados": true,
+    "concordancia": 0.9908536585365854,
+    "regra": ">="
+  },
+  "chaves_do_bloco_pares": {
+    "disponivel": 5248,
+    "quadrante_nacional": 5248,
+    "quadrante_nacional_rotulo": 5248,
+    "quadrante_pares": 5248,
+    "quadrante_pares_rotulo": 5248,
+    "situacao": 5248,
+    "pib_pc_2023": 5248,
+    "faixa_pib": 5248,
+    "populacao_2025": 5248,
+    "faixa_populacao": 5248,
+    "municipios_no_grupo": 5248,
+    "percentil_capacidade": 5248,
+    "percentil_entrega": 5248,
+    "frase": 5248,
+    "proximo_corte_nacional": 5248,
+    "ice_escore_planilha": 5248,
+    "ieg_escore_planilha": 5248
+  },
+  "destaque": {
+    "cod": "5106174",
+    "nome": "Nova Nazaré",
+    "uf": "MT"
+  },
+  "municipios_sem_regiao": [],
+  "avisos": []
+}

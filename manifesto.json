@@ -1,0 +1,93 @@
+{
+  "etapa": "03_BuildPainel",
+  "gerado_em": "2026-11-17T13:56:47",
+  "versao": "v13",
+  "entrega_modificada": false,
+  "painel_publicado_modificado": false,
+  "matriz": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Pipeline\\trabalho\\matriz_base\\matriz_longa",
+  "bases": [
+    "variaveis_gerais",
+    "rais2020",
+    "renda_responsavel_2022",
+    "saneamento_2023",
+    "seguranca_alimentar_2024",
+    "siconfi_corrigida",
+    "munic_corrigida"
+  ],
+  "entradas": {
+    "classificacao": {
+      "caminho": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Pipeline\\entradas_adicionais\\municipios_classificados_v1_1.csv",
+      "tamanho_bytes": 998194,
+      "sha256": "3ce0ce4462bd761a7c6c5a6091277acfc2b3d4614edaec92cfec2cf3ca8fe036"
+    },
+    "porte": {
+      "caminho": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Entrega_Capacidade_e_Entrega_v13\\bases\\intermediarias\\porte_capital_rm.csv",
+      "tamanho_bytes": 316235,
+      "sha256": "cc7c41efe514542412e00e12389ab97edb747cf9fcf6ec3701e6799a57cfe394"
+    },
+    "malha": {
+      "caminho": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Entrega_Capacidade_e_Entrega_v13\\scripts\\pipeline_v13\\malha_municipios_v2.parquet",
+      "tamanho_bytes": 20193170,
+      "sha256": "deee202172d9346b1f5b61e4a853278e56f9a8a7873daa5eaa88bf8482d457c7"
+    },
+    "catalogo_modelo": {
+      "caminho": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Entrega_Capacidade_e_Entrega_v13\\resultados\\variaveis_do_modelo_v13.csv",
+      "tamanho_bytes": 7691,
+      "sha256": "70e70e0af82352d337b7dfc3d76f1a60d36a62300cbefd29c42f4890c37cbe8f"
+    },
+    "curadoria": {
+      "caminho": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Construção do Painel\\variaveis_municipios_rotuladas.xlsx",
+      "tamanho_bytes": 1058034,
+      "sha256": "1915e2793010b07c300e823b4a480361317b9ac524b82b3c3c794119777a87b4"
+    },
+    "template": {
+      "caminho": "C:\\Users\\felipe.cordeiro\\Ministério da Gestão e da Inovação dos Serv. Pub\\SETE MGI - Documentos\\4. Projetos\\1. Federativo\\ENAP Tipologia de municípios\\Pipeline\\controle\\index_template.html",
+      "tamanho_bytes": 111526,
+      "sha256": "06945ce311d64bec10e6e1bb5bd802c744418da9fc150f10517ac77f63c2a325"
+    }
+  },
+  "modelo_documental": {
+    "itens_documentados": 26,
+    "ice": 19,
+    "ieg": 7
+  },
+  "pib_per_capita_2023": {
+    "metodo_faixas": "quintis_nacionais",
+    "pontos_de_corte": [
+      15315.74,
+      23528.22,
+      37089.36,
+      56035.14000000003
+    ],
+    "municipios_classificados": 5248,
+    "municipios_com_pib_pc": 5248,
+    "contagem_por_quintil_pib": {
+      "1": 1050,
+      "2": 1049,
+      "3": 1050,
+      "4": 1049,
+      "5": 1050
+    },
+    "fonte_pib_pc": "matriz_longa/base=variaveis_gerais"
+  },
+  "malha": {
+    "linhas": 5570,
+    "crs_saida": "EPSG:4326",
+    "tipos_geometria": {
+      "Polygon": 5468,
+      "MultiPolygon": 102
+    }
+  },
+  "detalhes": {
+    "municipios_gerados": 5571,
+    "registros_emitidos": 52724851,
+    "registros_descartados": 3643811
+  },
+  "saida": {
+    "arquivos_municipais": 5571,
+    "tamanho_resumo_bytes": 2331350,
+    "tamanho_topologia_bytes": 2602222,
+    "tamanho_index_bytes": 111526
+  },
+  "nota": "Este build nao recalcula ICE, IEG, quadrantes ou perfis. A camada municipal dos 48 componentes sera criada na etapa 04."
+}
